@@ -1,0 +1,6 @@
+# dsh-team bundle patch：多 Agent 团队接力技能包。
+# 叠加在 dsh-base（已含 skills 服务）之上，只声明本插件入口。
+# 本插件在 apply 阶段把 skills/ 下的团队角色 SKILL.md 注册进 skill registry，
+# 使 agent 获得「团队接力」的工作流与角色规范。
+- id: dsh-team
+  name: 'dsh-team'

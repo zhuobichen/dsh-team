@@ -1,0 +1,37 @@
+{
+  "name": "dsh-team",
+  "version": "0.1.0",
+  "description": "多 Agent 团队接力框架 —— 把复杂任务交给角色化的 agent 团队接力完成",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "skills",
+    "cordis.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.yml"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "agent",
+    "team",
+    "multi-agent",
+    "subagent"
+  ]
+}
